@@ -9,9 +9,10 @@
     z-index: 1;
 }
 
-.navbar li , .navbar img, a{
+.navbar-light .navbar-nav .nav-link, img{
     color: white;
     font-weight: bold;
+    align-content: center;
 }
 .overlay{
     background-color: black;
