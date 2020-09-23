@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url("img/hotel-front.jpg");
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar li , .navbar img, a{
+    color: white;
+    font-weight: bold;
+}
+.overlay{
+    background-color: black;
+    height: 100vh;
+    opacity: .5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.navbar .search-button{
+    background-color: orange;
+    border: none;
+}
+.banner{
+    color: white;
+    text-align: center;
+    transform: translateY(600%);
+    font-family: Arial;
+}
