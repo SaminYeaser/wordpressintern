@@ -43,4 +43,38 @@
     text-align: center;
     transform: translateY(600%);
     font-family: Arial;
+    position: relative;
+}
+.overlay-timer{
+    background-color: darkblue;
+    opacity: .7;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 15vh;
+    border-radius: 20px;
+}
+.timer{
+    align-content: center;
+    width: 80%;
+    height: 15vh;
+    position: relative;
+    z-index: 1;
+    transform: translate(10%, 300%);
+    padding: 10px 10px 10px 10px;
+}
+.timer h6{
+    color: white;
+}
+.container-arrival{
+    height: 5vh;
+    border: 2px solid yellow;
+    width: 80%;
+    color: white;
+    margin-top: 20px;
+    padding-left: 3px;
+    padding-top: 5px;
 }
