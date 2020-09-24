@@ -63,7 +63,7 @@
     height: 15vh;
     position: relative;
     z-index: 1;
-    transform: translate(10%, 300%);
+    transform: translate(10%, 350%);
     padding: 10px 10px 10px 10px;
 }
 .timer h6{
@@ -77,4 +77,49 @@
     margin-top: 20px;
     padding-left: 3px;
     padding-top: 5px;
+}
+.guest, .children{
+    color: white;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.timer-button{
+    padding-top: 30px;
+}
+.timer-button button{
+    background-color: orange;
+    border: none;
+    color: black;
+}
+.card{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: white;
+    padding-top: 3vh;
+    border-radius: 20px;
+}
+.overlay-cards{
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 70vh;
+}
+.card1{
+    background-image: url("img/Test-job.jpg");
+    height: 70vh;
+}
+.card2{
+    background-image: url("img/Test-job2.jpg");
+    height: 70vh;
+}
+.card3{
+    background-image: url("img/Test-job3.jpg");
+    height: 70vh;
 }
