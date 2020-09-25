@@ -49,7 +49,7 @@
     position: relative;
 }
 .overlay-timer{
-    background-color: darkblue;
+    background-color: #120D40;
     opacity: .7;
     position: absolute;
     left: 0;
@@ -129,7 +129,7 @@
 .semibanner{
     margin-top: 3vh;
     background-image: url("img/semi-banner.jpg");
-    height: 70vh;
+    height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,9 +138,9 @@
 
 }
 .semibanner-overlay{
-    background-color: darkblue;
+    background-color: #120D40;
     opacity: .7;
-    height: 70vh;
+    height: 90vh;
     position: absolute;
     left: 0;
     right: 0;
@@ -151,4 +151,53 @@
 .semibanner-rightside{
     position: relative;
     height: 70vh;
+    color: white;
+    padding-left: 20%;
+    padding-top: 20%;
 }
+.semibanner-rightside p{
+    padding: 5% 5% 5% 5%;
+}
+.foodbanner-s1{
+    background-image: url("img/food-banner.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foodbanner-s2{
+    text-align: center;
+}
+.foodbanner-s2 h2{
+    padding-top: 20%;
+    padding-bottom: 5%;
+    color: #120D40;
+}
+.foodbanner-s2 p{
+    padding-bottom: 10%;
+}
+.foodbanner-s2 button{
+    background-color: #120D40;
+    color: white;
+}
+.middle-banner{
+    background-image: url("img/office-banner.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.middle-image-content{
+    background-color: #120D40;
+    height: 70vh;
+}
+.middle-image-content-banner{
+    background-image: url("img/overlay-image.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+}
+
