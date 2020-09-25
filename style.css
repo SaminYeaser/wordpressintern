@@ -10,6 +10,9 @@
     height: 100vh;
     position: relative;
     z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar-light .navbar-nav .nav-link, img{
@@ -121,5 +124,31 @@
 }
 .card3{
     background-image: url("img/Test-job3.jpg");
+    height: 70vh;
+}
+.semibanner{
+    margin-top: 3vh;
+    background-image: url("img/semi-banner.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+.semibanner-overlay{
+    background-color: darkblue;
+    opacity: .7;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.semibanner-rightside{
+    position: relative;
     height: 70vh;
 }
